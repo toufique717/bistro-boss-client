@@ -23,12 +23,25 @@ import image4 from "../assets/home/desert.jpg"
 
 // import required modules
 import { Keyboard, Scrollbar, Navigation, Pagination } from 'swiper/modules';
+import Setiontitle from './Setiontitle';
 
 const Categories = () => {
 
 
     return (
         <div className=' py-8 '>
+
+
+          <Setiontitle
+          
+
+          heading={"--From 11:00am to 10:00pm--"}
+          subheading={"ORDER NOW"}>
+          
+
+            
+
+          </Setiontitle>
 
             
 
