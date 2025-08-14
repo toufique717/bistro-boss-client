@@ -1,13 +1,14 @@
 import React from 'react';
 import Setiontitle from './Setiontitle'
 import frimage from '../assets/home/featured.jpg'
+
 import backimage from '../assets/home/banner.jpg'
 
 const Bgfromourmenu = () => {
     return (
 
         <div className=' py-10 '>
-            <div className='p-12 bg-black bg-opacity-50 bg-cover bg-center bg-blend-overlay ' style={{ backgroundImage: `url(${backimage})` }}>
+            <div className='p-12 bg-black bg-fixed bg-opacity-50 bg-cover bg-center bg-blend-overlay ' style={{ backgroundImage: `url(${backimage})` }}>
 
             <div>
                  <Setiontitle 

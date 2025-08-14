@@ -4,6 +4,7 @@ import Orderonline from './Orderonline';
 import Categories from './Categories';
 import Popularmenu from './Popularmenu';
 import Bgfromourmenu from './Bgfromourmenu';
+import Testimonial from './Testimonial';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Categories></Categories>
             <Popularmenu></Popularmenu>
             <Bgfromourmenu></Bgfromourmenu>
+            <Testimonial></Testimonial>
 
 
         </div>
