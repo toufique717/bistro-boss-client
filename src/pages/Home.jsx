@@ -3,6 +3,7 @@ import Banner from './Banner';
 import Orderonline from './Orderonline';
 import Categories from './Categories';
 import Popularmenu from './Popularmenu';
+import Bgfromourmenu from './Bgfromourmenu';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             {/* <Orderonline></Orderonline> */}
             <Categories></Categories>
             <Popularmenu></Popularmenu>
+            <Bgfromourmenu></Bgfromourmenu>
 
 
         </div>
