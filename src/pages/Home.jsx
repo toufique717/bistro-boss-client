@@ -7,10 +7,15 @@ import Bgfromourmenu from './Bgfromourmenu';
 import Testimonial from './Testimonial';
 import Bistrobackground from './Bistrobackground';
 import Callus from './Callus';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
     return (
         <div className='mx-4'>
+
+            <Helmet>
+                <title>Bistro Home</title>
+            </Helmet>
              
             <Banner></Banner>
             {/* <Orderonline></Orderonline> */}
