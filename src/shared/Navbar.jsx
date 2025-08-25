@@ -11,6 +11,7 @@ const Navbar = () => {
        <div className='grid grid-cols-3 '>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/menu'>menu</Link></li>
+        <li><Link to='/order'>order</Link></li>
        
          
        </div>
