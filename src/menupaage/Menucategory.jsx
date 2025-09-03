@@ -1,4 +1,5 @@
  
+import { Link } from 'react-router-dom';
 import Coverimage from '../shared/Coverimage';
 import Popularitem from '../shared/Popularitem';
  
@@ -21,6 +22,16 @@ const Menucategory = ({image,title1,title2,item}) => {
                         )
                     }
                 </div>
+ <Link to={ `/order/${title1}`}>
+ 
+ 
+                 <div className="text-center mt-10">
+                <button className="bg-black rounded-md text-yellow-500 border-b-2 border-yellow-500 px-4 py-2 hover:bg-white hover:text-yellow-500 transition duration-300">
+               Order Your Favourite Food
+                </button>
+                 </div>
+
+ </Link>
             
         </div>
     );

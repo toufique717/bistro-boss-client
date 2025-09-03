@@ -2,7 +2,8 @@ import React from 'react';
 import p2 from '../assets/home/01.jpg'
 
 const Foodcard = ({item}) => {
-   const {name,image,recipe,price} = items;
+
+   const {name,image,recipe,price} = item;
     
     return (
         <div>
@@ -11,14 +12,15 @@ const Foodcard = ({item}) => {
             <div className="card bg-base-100 w-96 shadow-xl">
                 <figure className="px-10 pt-10">
                   <img
-                    src={p2}
+                    src={image}
                     alt="Spicy Chicken Pizza"
                     className="rounded-xl w-full h-48 object-cover"
                   />
                 </figure>
                 <div className="card-body items-center text-center">
-                  <h2 className="card-title">Spicy Chicken Pizza</h2>
-                  <p>Hot and cheesy pizza topped with spicy grilled chicken, bell peppers, and onions.</p>
+                  <p className='absolute top-12 right-12 bg-black text-white py-1 px-3 rounded-md shadow-md'>${price}</p>
+                  <h2 className="card-title">{name}</h2>
+                  <p>{recipe}</p>
                   <div className="card-actions">
                     <button className="bg-white rounded-md text-yellow-600 border-b-2 border-yellow-500 px-4 py-2 hover:bg-black hover:text-white transition duration-300">
                       Add to Cart

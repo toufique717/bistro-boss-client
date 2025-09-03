@@ -47,13 +47,13 @@ const Menu = () => {
 
              <Menucategory item={offered}></Menucategory>
 
-             <Menucategory item={desert} title1={'DESSERTS'} title2={'Soups are a comforting and nourishing dish enjoyed worldwide. They can be light and refreshing or hearty and filling, made with vegetables, meats, or legumes. Soups provide warmth, hydration, and essential nutrients. From classic chicken soup to spicy lentil varieties, they bring flavor, health, and comfort to every meal.'} image={desertimg}></Menucategory>
+             <Menucategory item={desert} title1={'dessert'} title2={'Soups are a comforting and nourishing dish enjoyed worldwide. They can be light and refreshing or hearty and filling, made with vegetables, meats, or legumes. Soups provide warmth, hydration, and essential nutrients. From classic chicken soup to spicy lentil varieties, they bring flavor, health, and comfort to every meal.'} image={desertimg}></Menucategory>
 
-             <Menucategory item={soup} title1={'PIZZA'} title2={'Soups are a comforting and nourishing dish enjoyed worldwide. They can be light and refreshing or hearty and filling, made with vegetables, meats, or legumes. Soups provide warmth, hydration, and essential nutrients. From classic chicken soup to spicy lentil varieties, they bring flavor, health, and comfort to every meal.'} image={pizzaimg}></Menucategory>
+             <Menucategory item={soup} title1={'pizza'} title2={'Soups are a comforting and nourishing dish enjoyed worldwide. They can be light and refreshing or hearty and filling, made with vegetables, meats, or legumes. Soups provide warmth, hydration, and essential nutrients. From classic chicken soup to spicy lentil varieties, they bring flavor, health, and comfort to every meal.'} image={pizzaimg}></Menucategory>
 
-             <Menucategory item={salad} title1={'SALADS'} title2={'Soups are a comforting and nourishing dish enjoyed worldwide. They can be light and refreshing or hearty and filling, made with vegetables, meats, or legumes. Soups provide warmth, hydration, and essential nutrients. From classic chicken soup to spicy lentil varieties, they bring flavor, health, and comfort to every meal.'} image={saladimg}></Menucategory>
+             <Menucategory item={salad} title1={'salad'} title2={'Soups are a comforting and nourishing dish enjoyed worldwide. They can be light and refreshing or hearty and filling, made with vegetables, meats, or legumes. Soups provide warmth, hydration, and essential nutrients. From classic chicken soup to spicy lentil varieties, they bring flavor, health, and comfort to every meal.'} image={saladimg}></Menucategory>
 
-             <Menucategory item={pizza} title1={'SOUPS'} title2={'Soups are a comforting and nourishing dish enjoyed worldwide. They can be light and refreshing or hearty and filling, made with vegetables, meats, or legumes. Soups provide warmth, hydration, and essential nutrients. From classic chicken soup to spicy lentil varieties, they bring flavor, health, and comfort to every meal.'} image={soupimg}></Menucategory>
+             <Menucategory item={pizza} title1={'soup'} title2={'Soups are a comforting and nourishing dish enjoyed worldwide. They can be light and refreshing or hearty and filling, made with vegetables, meats, or legumes. Soups provide warmth, hydration, and essential nutrients. From classic chicken soup to spicy lentil varieties, they bring flavor, health, and comfort to every meal.'} image={soupimg}></Menucategory>
         </div>
     );
 };

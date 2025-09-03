@@ -4,7 +4,8 @@ const Popularitem = ({items}) => {
 
     const {name,image,recipe,price} = items;
     return (
-        <div className='flex gap-2 p-4'>
+         <div>
+          <div className='flex gap-2 p-4'>
               <div>
                 <img style={{borderRadius:'0 200px 200px 200px'}} className='w-[100px] pt-1 ' src={image} alt="Description of image"></img>
               </div>
@@ -15,7 +16,12 @@ const Popularitem = ({items}) => {
               <div>
                 <p className='text-yellow-600'>${price}</p>
               </div>
+
+               
         </div>
+
+         
+         </div>
     );
 };
 
